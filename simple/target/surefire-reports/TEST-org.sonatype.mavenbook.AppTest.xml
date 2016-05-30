@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.006" errors="0" skipped="0" tests="1" name="org.sonatype.mavenbook.AppTest">
+<testsuite failures="0" time="0.004" errors="0" skipped="0" tests="1" name="org.sonatype.mavenbook.AppTest">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="Steve"/>
@@ -12,7 +12,7 @@
     <property name="POM_ARTIFACTID" value="simple"/>
     <property name="os.name" value="Windows 7"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_45\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_45\jre\classes"/>
-    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -26,7 +26,7 @@
     <property name="ProgramFiles" value="C:\Program Files (x86)"/>
     <property name="OnlineServices" value="Online Services"/>
     <property name="user.language" value="en"/>
-    <property name="BUILD_DISPLAY_NAME" value="#4"/>
+    <property name="BUILD_DISPLAY_NAME" value="#23"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_45\jre\bin"/>
     <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
     <property name="java.version" value="1.7.0_45"/>
@@ -37,7 +37,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\endorsed"/>
-    <property name="BUILD_ID" value="4"/>
+    <property name="BUILD_ID" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -72,7 +72,7 @@
     <property name="POM_GROUPID" value="org.sonatype.mavenbook"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
     <property name="user.home" value="C:\"/>
-    <property name="BUILD_TAG" value="jenkins-Steve-4"/>
+    <property name="BUILD_TAG" value="jenkins-Steve-23"/>
     <property name="JENKINS_SERVER_COOKIE" value="35749ba39694bf7b"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -86,7 +86,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\mavensteve"/>
     <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\mavensteve\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\mavensteve/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\mavensteve C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.57.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 56135"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\mavensteve C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.57.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 58620"/>
     <property name="Path" value="C:\Program Files\Java\jdk1.7.0_45/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\HP SimplePass 2011\x64;C:\Program Files (x86)\HP SimplePass 2011\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Services\IPT\;C:\opscode\chef\bin;C:\opscode\chef\embedded\bin;C:\Program Files (x86)\QuickTime\QTSystem\;C:\Program Files (x86)\Skype\Phone\;C:\Program Files (x86)\Amazon\AWSCLI\;"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
@@ -101,26 +101,28 @@
     <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
     <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\mavensteve/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Steve/4/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Steve/23/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="SystemRoot" value="C:\Windows"/>
     <property name="windows_tracing_flags" value="3"/>
     <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_45\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
-    <property name="user.dir" value="C:\Users\yves-2011\aws\maven\projects\firstproj\simple"/>
+    <property name="user.dir" value="C:\Users\yves-2011\aws\maven\projects\firstproj\firstproj\simple"/>
     <property name="JOB_URL" value="http://localhost:8080/job/Steve/"/>
     <property name="USERDOMAIN" value="WORKGROUP"/>
     <property name="line.separator" value="
 "/>
     <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\mavensteve"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="4"/>
+    <property name="BUILD_NUMBER" value="23"/>
     <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="PROCESSOR_REVISION" value="2a07"/>
+    <property name="GIT_BRANCH" value="origin/master"/>
     <property name="ProgramW6432" value="C:\Program Files"/>
     <property name="windir" value="C:\Windows"/>
+    <property name="GIT_COMMIT" value="5d28e7cd0ebe9c4d616a3fcb1a2a0516288a27c2"/>
     <property name="PCBRAND" value="Pavilion"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="SystemDrive" value="C:"/>
@@ -130,6 +132,7 @@
     <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
     <property name="java.specification.version" value="1.7"/>
     <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="GIT_URL" value="git@github.com:yvester/firstproj.git"/>
   </properties>
-  <testcase time="0.006" classname="org.sonatype.mavenbook.AppTest" name="testApp"/>
+  <testcase time="0.004" classname="org.sonatype.mavenbook.AppTest" name="testApp"/>
 </testsuite>
